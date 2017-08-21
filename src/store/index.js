@@ -20,18 +20,6 @@ var store = new Vuex.Store({
         this._token = localStorage.getItem('token')
       }
       return this._token
-    },
-    // 用户信息
-    _user: null,
-    set user (user) {
-      this._user = user
-      localStorage.setItem('user', JSON.stringify(user))
-    },
-    get user () {
-      if (!this._user) {
-        this._user = JSON.parse(localStorage.getItem('user'))
-      }
-      return this._user
     }
   },
   getters,

@@ -1,5 +1,11 @@
 export default function (Vue) {
   Vue.mixin({
+    data () {
+      return {
+        // 是否处于加载状态
+        myLoading: false
+      }
+    },
     methods: {
       // 自定义的页面激活方法
       activated () {

@@ -1,45 +1,31 @@
+// 样式重置
+@import "reset";
+// 变量
+@import "vars";
 
+/*****************************常用样式*****************************/
 html,body{
-  margin: 0;
-  padding: 0;
   height: 100%;
 }
-
-ul{
-  margin: 0;
-  padding: 0;
+// 右浮动
+.float-right{
+  float: right;
+}
+// 左浮动
+.float-left{
+  float: left;
+}
+// 清除浮动
+.float-clear:after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
-li{
-  list-style: none;
-  margin: 0;
+
+/*****************************项目公共样式*****************************/
+.jianji-back-table{
+  max-height: 600px;
+  overflow: auto;
 }
 
-/*头部导航设置*/
-.header_nav{
-  background: #C7010B;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.scroll-content {
-  position: absolute!important;
-  left: 0!important;
-  top: 0!important;
-  right: 0!important;
-  bottom: 0!important;
-  overflow: auto!important;
-  margin-top: -1px!important;
-  padding-top: 1px!important;
-  margin-bottom: -1px!important;
-  width: auto!important;
-  height: auto!important;
-}
-
-.has-header{
-  top: 40px!important;
-}
-
-.has-footer{
-  bottom: 50px!important;
-}
