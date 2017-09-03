@@ -8,7 +8,7 @@
   export default {
     name: 'app',
     created () {
-      this.$store.commit('login', {token: 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxODg0ODk2Mjg4MyIsImF1dGgiOiJST0xFX1VTRVIiLCJleHAiOjE1MDMzNTUzNTF9.vB7esU8kCzN5z28Nyr7yKOjVsUBIMg-pdjojoCBzw0BF_-6LuNvrR52JgN1S6m2XPAUu8wptRQDtGShNn35c_A'})
+      this.$store.commit('login', {token: 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxODg0ODk2Mjg4MyIsImF1dGgiOiJST0xFX1VTRVIiLCJleHAiOjE1MDM0NzM0ODF9.zeiBr45rKp5uBbB_MCGGF2bD3nmN21V-hSUk5g9wS5NF97cdocVgmGDOyTjO2UI7h9T2vYmcGQHfxkcYq6Z7Nw'})
     }
   }
 </script>
